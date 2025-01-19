@@ -1,0 +1,45 @@
+name: e_commerce
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  badges: ^3.1.2
+  cached_network_image: ^3.4.1
+  flutter:
+    sdk: flutter
+  flutter_polyline_points: ^2.1.0
+  flutter_riverpod: ^2.6.1
+  geocoding: ^3.0.0
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.10.0
+  http: ^1.2.2
+  introduction_screen: ^3.1.14
+  jwt_decoder: ^2.0.1
+  location: ^7.0.1
+  lottie: ^3.3.1
+  network_info_plus: ^6.1.3
+  scroll_to_index: ^3.0.1
+  shared_preferences: ^2.3.5
+  socket_io_client: ^3.0.0
+  web_socket_channel: ^3.0.1
+  image_blur: ^1.0.82
+  blurhash:
+    git:
+      url: https://github.com/himanshu64/blurhash.git
+  flutter_blurhash: ^0.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/animations/
